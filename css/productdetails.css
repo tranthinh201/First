@@ -1,0 +1,114 @@
+.container {
+	height: 800px;
+	margin-top: 120px;
+	position: relative;
+	font-family: 'Be VietNam', sans-serif;
+}
+
+.product-detail {
+	background: white;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 1300px;
+}
+
+.product-detail-container {
+	display: flex;
+}
+
+.image-product-details {
+	margin-right: 50px;
+}
+
+.image-product > img {
+	overflow: visible;
+}
+
+strong {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+.product-detail-container > ul > li{
+	margin-bottom: 10px;
+}
+
+.flex-ct {
+	display: flex;
+	align-items: center;
+}
+
+.btn-link {
+	justify-content: space-around;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	background-color: #48dbfb;
+}
+
+.btn-cart {
+	border: 1px solid #192a56;
+	background-color: #48dbfb;
+	transition: all .5s;
+	padding: 10px 20px;
+	border-radius: 4px;
+	outline: none;
+}
+
+.btn-cart:hover > a {
+	color: #192a56;
+}
+
+.btn-cart:hover {
+	background-color: #f5f6fa;
+	border-color: #f5f6fa;
+}
+
+.btn-cart > a {
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 600;
+	color: #222f3e;
+}
+
+
+
+.price-product {
+	font-size: 22px;
+	color: #d53b2a;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.insurance {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 300px;
+	margin-right: 40px;
+}
+
+.content-insurance {
+	font-size: 20px;
+	font-weight: 600;
+	color: #222f3e;
+}
+
+.infor-insurance {
+	padding: 20px 10px 20px 10px;
+	margin: 10px 0;
+	border: 1px solid #d53b2a;
+}
+
+.infor-insurance > ul > li {
+	margin: 5px 0;
+}
+
+.infor-insurance > ul > li > span {
+	font-weight: 600;
+}
+

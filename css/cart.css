@@ -1,0 +1,79 @@
+.container {
+    padding-top: 100px;
+}
+
+table {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table  td, table  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+td {
+    text-align: center;
+}
+
+
+table th {
+    text-align: center;
+    background-color: #82ccdd;
+}
+
+.btn-danger {
+    background-color: inherit;
+    font-size: 14px;
+    margin-top: 20px;
+    border: 1px solid #dc3545;
+    padding: 4px 6px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+input[type=number] {
+    font-size: 18px;
+    width: 80px;
+    outline: none;
+}
+
+.tt-clo {
+    background-color: antiquewhite;
+}
+
+.tt-clo > td {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.tt-cart:hover {
+    background-color: #0fbcf9;
+}
+
+.tt-cart > a{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+
